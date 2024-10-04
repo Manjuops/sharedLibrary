@@ -1,17 +1,3 @@
-// vars/helloWorld.groovy
 def call() {
-    pipeline {
-        agent any
-        
-        stages {
-            stage('Hello') {
-                steps {
-                    script {
-                        echo 'Hello, World!'
-                    }
-                }
-            }
-        }
-    }
+    sh ' Hello manju, You are capable of doing anything. Things will definately come to you what you wish for.Be confident. This time will pass'
 }
-
